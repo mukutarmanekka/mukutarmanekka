@@ -152,6 +152,42 @@ My recent work has focused on technologies such as **Azure, Databricks, PySpark,
 
 ---
 
+## The Path of the Chosen
+
+> **AI-powered career guidance platform** that helps users explore career paths through assessments, profile analysis, and personalized recommendations.
+
+### Architecture
+
+`Flutter Client` → `Node.js / Express API` → `FastAPI ML Service` → `LLM + Pinecone RAG`
+
+### Tech Stack
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+### Highlights
+
+- Multi-tier career assessments for skills, interests, education, and preferences
+- Personalized career recommendations with match explanations
+- Rule-based recommendation scoring through the backend
+- LLM-powered recommendation service
+- **RAG pipeline** using Pinecone vector search for career retrieval
+- Firebase Authentication with authenticated REST APIs
+- Firestore-based user and recommendation data management
+- API validation, rate limiting, security headers, compression, and request logging
+- Independent ML microservice architecture using FastAPI
+
+**[View Project →](https://github.com/mukutarmanekka/The-Path-of-the-Chosen)**
+
+---
+
 ## Smart Evacuation Router
 
 > **Interactive evacuation routing application** that uses real-world road network data and a customized **A\*** pathfinding algorithm to identify safe evacuation routes.
