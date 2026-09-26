@@ -1,16 +1,173 @@
-## Hi there 👋
+# Hi, I'm Mukut Arman Ekka
 
-<!--
-**mukutarmanekka/mukutarmanekka** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Data Engineering | Cloud | Machine Learning | Software Development
 
-Here are some ideas to get you started:
+I'm a final-year Computer Science & Engineering student at **NIT Delhi** with a growing focus on **Data Engineering and Cloud Data Platforms**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I enjoy building systems that turn raw data into reliable, structured, and useful information — from **ETL/ELT pipelines and lakehouse architectures** to **data processing, analytics, and machine learning applications**.
+
+My recent work has focused on technologies such as **Azure, Databricks, PySpark, Apache Airflow, SQL, Docker, and Python**, while I also continue exploring machine learning and software engineering.
+
+---
+
+## What I'm Working With
+
+### Data Engineering
+- ETL / ELT Pipelines
+- Data Warehousing
+- Data Lakehouse
+- Medallion Architecture
+- Data Cleaning & Transformation
+- Data Quality & Validation
+- Batch Data Processing
+
+### Cloud & Big Data
+- Microsoft Azure
+- Azure Data Factory
+- Azure Data Lake Storage Gen2
+- Azure Databricks
+- Azure Synapse Analytics
+- Apache Spark
+- PySpark
+
+### Data & Databases
+- SQL
+- MySQL
+- PostgreSQL
+- MongoDB
+- Delta Lake
+- Parquet
+
+### Engineering & DevOps
+- Python
+- C
+- C++
+- Java
+- Docker
+- Git & GitHub
+- Node.js
+- Express.js
+
+### Machine Learning
+- Supervised Learning
+- Regression
+- Classification
+- Neural Networks
+- Decision Trees
+- Clustering
+- Anomaly Detection
+- Recommender Systems
+- Reinforcement Learning
+
+---
+
+## Featured Projects
+
+### Olist Azure Lakehouse ELT
+
+An end-to-end **Azure Data Engineering pipeline** built around the Olist Brazilian E-Commerce dataset.
+
+**Architecture:**
+
+`Data Sources → Azure Data Factory → ADLS Gen2 Bronze → Databricks / PySpark → Silver → Gold → Power BI`
+
+**Key technologies:**
+`Azure` `ADF` `ADLS Gen2` `Databricks` `PySpark` `Delta Lake` `SQL` `MySQL` `MongoDB` `Power BI`
+
+The project demonstrates multi-source ingestion, data cleaning, validation, enrichment, medallion architecture, analytics-ready datasets, and BI consumption.
+
+[View Project →](https://github.com/mukutarmanekka/Olist-Azure-Lakehouse-ELT)
+
+---
+
+### NASA APOD ETL Pipeline
+
+A containerized ETL pipeline that extracts NASA's Astronomy Picture of the Day data, transforms the API response, and loads it into PostgreSQL using **Apache Airflow**.
+
+**Stack:**
+
+`Python` `Apache Airflow` `PostgreSQL` `Docker`
+
+The project explores workflow orchestration, scheduled pipelines, Airflow TaskFlow API, database loading, and containerized development.
+
+[View Project →](https://github.com/mukutarmanekka/NASA-APOD-ETL-Pipeline-with-Apache-Airflow)
+
+---
+
+### Lightweight Version Control System
+
+A learning-focused version control system implemented in **C++**, inspired by core Git concepts.
+
+Features include:
+- Repository initialization
+- Staging
+- Commits
+- Branches
+- Checkout
+- Merge
+- Revert
+- Status and log
+- Huffman-based file compression
+
+**Stack:**
+
+`C++17` `CMake` `OpenSSL` `JSON` `Huffman Coding`
+
+[View Project →](https://github.com/mukutarmanekka/VCS)
+
+---
+
+### Smart Evacuation Router
+
+A web application that calculates evacuation routes using real-world road network data and a customized **A\* pathfinding algorithm**.
+
+The system incorporates:
+- OpenStreetMap road networks
+- OSMnx
+- NetworkX
+- Disaster zones
+- Water avoidance
+- Safe exit detection
+- Interactive map visualization
+
+**Stack:**
+
+`Python` `Streamlit` `NetworkX` `OSMnx` `Folium`
+
+[View Project →](https://github.com/mukutarmanekka/smart-evacuation-router)
+
+---
+
+## Currently Learning
+
+- Advanced Data Engineering
+- Distributed Data Processing with Spark
+- Apache Kafka
+- Apache Airflow
+- Cloud Data Platforms
+- Data Warehousing & Lakehouse Architecture
+- Machine Learning
+- Scalable Backend Systems
+
+---
+
+## Education
+
+**National Institute of Technology Delhi**
+
+Bachelor of Technology in Computer Science & Engineering
+
+---
+
+## Let's Connect
+
+I'm interested in opportunities and projects related to:
+
+**Data Engineering · Cloud · Big Data · Analytics · Machine Learning · Software Engineering**
+
+[LinkedIn](https://www.linkedin.com/)  
+[GitHub](https://github.com/mukutarmanekka)
+
+---
+
+> Building systems, learning continuously, and turning data into something useful.
