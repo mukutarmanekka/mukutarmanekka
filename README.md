@@ -63,79 +63,122 @@ My recent work has focused on technologies such as **Azure, Databricks, PySpark,
 
 ## Featured Projects
 
-### Olist Azure Lakehouse ELT
+## Olist Azure Lakehouse ELT
 
-An end-to-end **Azure Data Engineering pipeline** built around the Olist Brazilian E-Commerce dataset.
+> **End-to-end Azure Data Engineering pipeline** built around the Olist Brazilian E-Commerce dataset.
 
-**Architecture:**
+### Architecture
 
-`Data Sources → Azure Data Factory → ADLS Gen2 Bronze → Databricks / PySpark → Silver → Gold → Power BI`
+`Data Sources` → `Azure Data Factory` → `ADLS Gen2 Bronze` → `Databricks / PySpark` → `Silver` → `Gold` → `Power BI`
 
-**Key technologies:**
-`Azure` `ADF` `ADLS Gen2` `Databricks` `PySpark` `Delta Lake` `SQL` `MySQL` `MongoDB` `Power BI`
+### Tech Stack
 
-The project demonstrates multi-source ingestion, data cleaning, validation, enrichment, medallion architecture, analytics-ready datasets, and BI consumption.
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![ADF](https://img.shields.io/badge/Data%20Factory-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![ADLS Gen2](https://img.shields.io/badge/ADLS%20Gen2-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta%20Lake-00ADD8?style=flat-square&logo=delta&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 
-[View Project →](https://github.com/mukutarmanekka/Olist-Azure-Lakehouse-ELT)
+### Highlights
 
----
+- Multi-source data ingestion
+- Data cleaning, validation & enrichment
+- Bronze → Silver → Gold **Medallion Architecture**
+- Analytics-ready datasets
+- Business intelligence & dashboard consumption
 
-### NASA APOD ETL Pipeline
-
-A containerized ETL pipeline that extracts NASA's Astronomy Picture of the Day data, transforms the API response, and loads it into PostgreSQL using **Apache Airflow**.
-
-**Stack:**
-
-`Python` `Apache Airflow` `PostgreSQL` `Docker`
-
-The project explores workflow orchestration, scheduled pipelines, Airflow TaskFlow API, database loading, and containerized development.
-
-[View Project →](https://github.com/mukutarmanekka/NASA-APOD-ETL-Pipeline-with-Apache-Airflow)
-
----
-
-### Lightweight Version Control System
-
-A learning-focused version control system implemented in **C++**, inspired by core Git concepts.
-
-Features include:
-- Repository initialization
-- Staging
-- Commits
-- Branches
-- Checkout
-- Merge
-- Revert
-- Status and log
-- Huffman-based file compression
-
-**Stack:**
-
-`C++17` `CMake` `OpenSSL` `JSON` `Huffman Coding`
-
-[View Project →](https://github.com/mukutarmanekka/VCS)
+**[View Project →](https://github.com/mukutarmanekka/Olist-Azure-Lakehouse-ELT)**
 
 ---
 
-### Smart Evacuation Router
+## NASA APOD ETL Pipeline
 
-A web application that calculates evacuation routes using real-world road network data and a customized **A\* pathfinding algorithm**.
+> **Containerized ETL pipeline** that extracts NASA's Astronomy Picture of the Day data, transforms the API response, and loads it into PostgreSQL using **Apache Airflow**.
 
-The system incorporates:
-- OpenStreetMap road networks
-- OSMnx
-- NetworkX
-- Disaster zones
-- Water avoidance
-- Safe exit detection
-- Interactive map visualization
+### Architecture
 
-**Stack:**
+`NASA APOD API` → `Apache Airflow` → `Extract` → `Transform` → `PostgreSQL`
 
-`Python` `Streamlit` `NetworkX` `OSMnx` `Folium`
+### Tech Stack
 
-[View Project →](https://github.com/mukutarmanekka/smart-evacuation-router)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
+### Highlights
+
+- Automated API data extraction
+- ETL workflow orchestration with **Apache Airflow**
+- Scheduled daily pipeline execution
+- Airflow **TaskFlow API**
+- PostgreSQL data loading
+- Containerized development with Docker
+
+**[View Project →](https://github.com/mukutarmanekka/NASA-APOD-ETL-Pipeline-with-Apache-Airflow)**
+
+---
+
+## Lightweight Version Control System
+
+> **Learning-focused version control system** implemented in **C++**, inspired by core Git concepts and workflows.
+
+### Core Features
+
+`Init` · `Add` · `Commit` · `Branch` · `Checkout` · `Merge` · `Revert` · `Status` · `Log`
+
+### Tech Stack
+
+![C++](https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
+![OpenSSL](https://img.shields.io/badge/OpenSSL-721412?style=flat-square&logo=openssl&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white)
+
+### Highlights
+
+- Repository initialization & file staging
+- Commit and branch management
+- Checkout, merge & revert operations
+- Status and commit log functionality
+- **Huffman coding** for file compression
+- C++17-based implementation with CMake
+
+**[View Project →](https://github.com/mukutarmanekka/VCS)**
+
+---
+
+## Smart Evacuation Router
+
+> **Interactive evacuation routing application** that uses real-world road network data and a customized **A\*** pathfinding algorithm to identify safe evacuation routes.
+
+### Architecture
+
+`Location Input` → `OpenStreetMap / OSMnx` → `Road Network` → `A* Pathfinding` → `Safe Evacuation Route` → `Interactive Map`
+
+### Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![NetworkX](https://img.shields.io/badge/NetworkX-3776AB?style=flat-square&logo=networkx&logoColor=white)
+![OSMnx](https://img.shields.io/badge/OSMnx-1F6FEB?style=flat-square&logo=openstreetmap&logoColor=white)
+![Folium](https://img.shields.io/badge/Folium-77B829?style=flat-square&logo=leaflet&logoColor=white)
+
+### Highlights
+
+- Custom **A\*** pathfinding algorithm
+- Real-world road networks from **OpenStreetMap**
+- Road network processing with **OSMnx & NetworkX**
+- Disaster zone detection and safe exit identification
+- Water-body avoidance constraints
+- Interactive route visualization with **Folium**
+- Streamlit-based web interface
+
+**[View Project →](https://github.com/mukutarmanekka/smart-evacuation-router)**
 ---
 
 ## Currently Learning
